@@ -1,7 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.event.*;
 
 /**
  * Project name(项目名称)：Swing实现简单计算器
@@ -128,6 +127,55 @@ public class test1 extends MouseAdapter
         sqrt.addMouseListener(this);
         dight.addMouseListener(this);
         sign.addMouseListener(this);
+        list.addKeyListener(new KeyAdapter()
+        {
+            @Override
+            public void keyPressed(KeyEvent e)
+            {
+                System.out.println(e.getKeyCode());
+                if (e.getKeyCode() == KeyEvent.VK_0||e.getKeyCode()==96)
+                {
+                    input1(0);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_1||e.getKeyCode()==97)
+                {
+                    input1(1);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_2||e.getKeyCode()==98)
+                {
+                    input1(2);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_3||e.getKeyCode()==99)
+                {
+                    input1(3);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_4||e.getKeyCode()==100)
+                {
+                    input1(4);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_5||e.getKeyCode()==101)
+                {
+                    input1(5);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_6||e.getKeyCode()==102)
+                {
+                    input1(6);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_7||e.getKeyCode()==103)
+                {
+                    input1(7);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_8||e.getKeyCode()==104)
+                {
+                    input1(8);
+                }
+                else if (e.getKeyCode() == KeyEvent.VK_9||e.getKeyCode()==105)
+                {
+                    input1(9);
+                }
+            }
+        });
+        list.setFocusable(true);
         list.setVisible(true);
 
     }
@@ -417,7 +465,7 @@ public class test1 extends MouseAdapter
     // 点击数字输入
     public void input(int i, MouseEvent e)
     {
-        if (b == true)
+        if (b)
         {
             show.setText(String.valueOf(i));
             b = false;
@@ -426,6 +474,27 @@ public class test1 extends MouseAdapter
         {
             //判断0和.来清除整数时后面的点
             if (show.getText().indexOf('0') == 0 && e.getSource() != dight)
+            {
+                show.setText(String.valueOf(i));
+            }
+            else
+            {
+                show.setText(show.getText() + String.valueOf(i));
+            }
+        }
+    }
+
+    public void input1(int i)
+    {
+        if (b)
+        {
+            show.setText(String.valueOf(i));
+            b = false;
+        }
+        else
+        {
+            //判断0和.来清除整数时后面的点
+            if (show.getText().indexOf('0') == 0)
             {
                 show.setText(String.valueOf(i));
             }

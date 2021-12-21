@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aef05fb-a3fa-4b50-8b7f-6f4d965c64fc" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="3aef05fb-a3fa-4b50-8b7f-6f4d965c64fc" name="变更" comment="Swing_implement_a_simple_calculator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Swing实现简单计算器.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Swing实现简单计算器.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Swing实现简单计算器_args.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Swing实现简单计算器_args.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Swing实现简单计算器_args_save.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Swing实现简单计算器_args_save.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Swing实现简单计算器_hide.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Swing实现简单计算器_hide.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test1$operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test1$operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +57,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2" />
+      <module name="Swing实现简单计算器" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.test1" />
+        <item itemvalue="应用程序.test2" />
         <item itemvalue="应用程序.test" />
       </list>
     </recent_temporary>
@@ -79,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1639290263186</updated>
     </task>
+    <task id="LOCAL-00001" summary="Swing_implement_a_simple_calculator">
+      <created>1639290901677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639290901677</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,5 +104,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Swing_implement_a_simple_calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swing_implement_a_simple_calculator" />
   </component>
 </project>
